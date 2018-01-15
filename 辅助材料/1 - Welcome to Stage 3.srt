@@ -1,0 +1,14 @@
+0:00:00.000,0:00:03.671
+In this stage, you'll embed[br]YouTube videos into your web page.
+
+0:00:03.671,0:00:07.658
+But, really what you're going to be[br]doing is learning how to massively
+
+0:00:07.658,0:00:10.477
+increase your power as[br]a programmer because what
+
+0:00:10.477,0:00:14.673
+you'll be doing is finding and[br]using other people's already written,
+
+0:00:14.673,0:00:18.960
+freely available code to really speed[br]up how quickly you can make things.

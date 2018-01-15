@@ -1,0 +1,101 @@
+
+<head> 
+    <meta charset="utf-8"> 
+    <title>Fresh Tomatoes!</title> 
+
+    <!-- Bootstrap 3 --> 
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css"> 
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script> 
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> 
+    <style type="text/css" media="screen"> 
+        body { 
+            padding-top: 80px; 
+        } 
+        #trailer .modal-dialog { 
+            margin-top: 200px; 
+            width: 640px; 
+            height: 480px; 
+        } 
+        .hanging-close { 
+            position: absolute; 
+            top: -12px; 
+            right: -12px; 
+            z-index: 9001; 
+        } 
+        #trailer-video { 
+            width: 100%; 
+            height: 100%; 
+        } 
+        .movie-title { 
+            margin-bottom: 20px; 
+            padding-top: 20px; 
+        } 
+        .movie-title:hover { 
+            background-color: #EEE; 
+            cursor: pointer; 
+        } 
+        .scale-media { 
+            padding-bottom: 56.25%; 
+            position: relative; 
+        } 
+        .scale-media iframe { 
+            border: none; 
+            height: 100%; 
+            position: absolute; 
+            width: 100%; 
+            left: 0; 
+            top: 0; 
+            background-color: white; 
+        } 
+    </style> 
+    <script type="text/javascript" charset="utf-8"> 
+        
+        
+    </script> 
+</head> 
+
+<!DOCTYPE html> 
+<html lang="en"> 
+  <body> 
+    <div class="modal" id="trailer"> 
+      <div class="modal-dialog"> 
+        <div class="modal-content"> 
+          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true"> 
+            <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/> 
+          </a> 
+          <div class="scale-media" id="trailer-video-container"> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+
+    <div class="container"> 
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation"> 
+        <div class="container"> 
+          <div class="navbar-header"> 
+            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+    <div class="container"> 
+       
+<div class="col-md-6 col-lg-4 movie-title text-center" data_youtube_src="http://youtube.com/embed/WypeQtYC3Ms" data-toggle="modal" data-target="#trailer" > 
+    <img src="https://i.ytimg.com/vi/WypeQtYC3Ms/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIZCGAE=&rs=AOn4CLDO0EXdWiHVheduqbfizpQaN6nEmw" width="336" height="188"> 
+    <h2>Star Wars Battlefront II</h2> 
+</div> 
+ 
+<div class="col-md-6 col-lg-4 movie-title text-center" data_youtube_src="http://youtube.com/embed/zW-wrIlpv7E" data-toggle="modal" data-target="#trailer" > 
+    <img src="https://i.ytimg.com/vi/p0Xlr3La_6I/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIZCGAE=&rs=AOn4CLDtokXAqjWUDZmA3jClTR2eRY07gw" width="336" height="188"> 
+    <h2>Logan</h2> 
+</div> 
+ 
+<div class="col-md-6 col-lg-4 movie-title text-center" data_youtube_src="http://youtube.com/embed/KTJ9MOumqxk" data-toggle="modal" data-target="#trailer" > 
+    <img src="https://i.ytimg.com/vi/KTJ9MOumqxk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIZCGAE=&rs=AOn4CLAOb8zzQPtUHirCwYgPYuoSu2vR1A" width="336" height="188"> 
+    <h2>injustice god among us</h2> 
+</div> 
+ 
+    </div> 
+  </body> 
+</html> 
